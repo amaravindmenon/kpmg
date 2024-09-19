@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ABC Learning</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <img src="kpmg-logo.png" alt="KPMG">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">My Learning</a></li>
+                <li><a href="#">My History</a></li>
+                <li class="notifications">
+                    <a href="#">Notifications <span id="notification-count" class="notification-count">0</span></a>
+                    <div class="dropdown">
+                        <ul id="notification-list">
+                            <li>No new notifications</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Curriculum</a></li>
+                <li>
+                    <form id="search-form">
+                        <input type="text" id="search-input" placeholder="Search courses..." />
+                        <button type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="site-title">KPMG Learning Portal</h1>
+    </header>
+
+    <section class="slider-container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://www.constantcontact.com/blog/wp-content/uploads/2019/01/Artboard-1.png" alt="Learning Image 1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://cdn.create.vista.com/api/media/small/241926008/stock-photo-group-female-male-architects-working-blueprint-desk-coffee-loft-office" alt="Learning Image 2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://media.istockphoto.com/id/476229624/photo/the-editor-at-work-choosing-the-right-image.jpg?s=612x612&w=0&k=20&c=CECcu8hmslUBFV_8t6RD9toSuUw0UUfgEme5aZ4CJ3U=" alt="Learning Image 3">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <div class="modules-container">
+        <div id="learning-module" class="module">
+            <h2>My Learning</h2>
+            <div class="expandable-content"></div>
+        </div>
+
+        <div id="history-module" class="module">
+            <h2>My History</h2>
+            <div class="expandable-content"></div>
+        </div>
+    </div>
+
+    <section class="module-info">
+        <div class="module-text">
+            <p>Portal Information</p>
+            <a href="">Read More</a>
+        </div>
+        <div class="mod-image">
+            <img src="https://www.shutterstock.com/image-vector/vector-square-banner-distance-education-260nw-692386969.jpg" alt="">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="logo">
+                    <img src="kpmg-logo.png" alt="KPMG">
+                </div>
+                <h3>KPMG Learning Portal</h3>
+                <p>Empowering students and professionals with world-class education.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help & Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" /></a>
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/twitter-squared.png" /></a>
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" /></a>
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 KPMG Learning. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
